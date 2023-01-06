@@ -8,7 +8,7 @@
 import SwiftUI
 import ConfettiSwiftUI
 
-struct QuestionView: View {
+struct QuestionView: View { 
     @EnvironmentObject var triviaManager: TriviaManager
     @State private var counter = 0
     
